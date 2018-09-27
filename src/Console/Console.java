@@ -51,7 +51,7 @@ public class Console {
 
     public Point ascPoint () {
 
-        return new Point(ascCoordinat("X") - 1, ascCoordinat("O") - 1);
+        return new Point(ascCoordinat("X") - 1, ascCoordinat("Y") - 1);
 
     }
 
